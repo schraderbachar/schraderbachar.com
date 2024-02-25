@@ -281,6 +281,155 @@
     <section class="dark" id="projects">
       <div class="container py-4">
         <h1 class="h1 text-center" id="pageHeaderTitle">Projects</h1>
+        <!-- SS -->
+        <article class="postcard dark yellow">
+          <a
+            class="postcard__img_link"
+            href="https://www.silverspaces.com/for-professionals/"
+            target="_blank"
+          >
+            <img
+              class="postcard__img"
+              src="images/ss1.png"
+              alt="Silver Spaces Image"
+            />
+          </a>
+          <div class="postcard__text">
+            <h1 class="postcard__title yellow">
+              <a
+                href="https://www.silverspaces.com/for-professionals/"
+                target="_blank"
+                >Silver Spaces</a
+              >
+            </h1>
+            <div class="postcard__subtitle small">
+              <p>WordPress</p>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">
+              Dr. Bjerke, CEO of Silver Spaces, wanted a
+              <span class="text-white">clean and simple landing page</span> to
+              showcase her aging-in-Pplace software for professionals that she
+              can post to daily and weekly for current happenings in the
+              aging-in-place sector. I built the landing page keeping in mind
+              the
+              <span class="text-white"
+                >Client's desired outcome (purchasing the software), as well as
+                the visitors desired outcome</span
+              >
+              (stay up to date on current events in the space and learn more
+              about Silver Spaces). I put three CTAs at the start that allows
+              for the client to easily update text and links to content. Below
+              that I added graphics and testimonials
+              <span class="text-white"
+                >to futher brand confidence and guide the user to complete the
+                desired outcome</span
+              >
+              while increasing brand confidence from what the software offers,
+              how it can help the visitor, and testimonials from current and
+              past clients.
+            </div>
+            <ul class="postcard__tagbox">
+              <li class="tag__item play yellow">
+                <a
+                  href="https://www.silverspaces.com/for-professionals/"
+                  target="_blank"
+                  ><i class="fas fa-play mr-2"></i>View Website</a
+                >
+              </li>
+              <li class="tag__item play yellow">
+                <a data-bs-toggle="modal" data-bs-target="#ssModal"
+                  ><i class="fas fa-play mr-2"></i>View Design</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- SS modal -->
+          <div
+            class="modal fade"
+            id="ssModal"
+            tabindex="-1"
+            aria-labelledby="ssLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5 text-black" id="ssLabel">
+                    Silver Spaces
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <!-- modal with images -->
+                  <div id="ssCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="./images/ss1.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="./images/ss2.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="./images/ss3.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#ssCarousel"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon bg-black"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#ssCarousel"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon bg-black"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
         <!-- ic clone -->
         <article class="postcard dark purple">
           <a
@@ -419,7 +568,7 @@
             </div>
           </div>
         </article>
-        <!-- ic clone -->
+        <!-- course scheduler -->
         <article class="postcard dark red">
           <a
             class="postcard__img_link"
@@ -446,15 +595,22 @@
             <div class="postcard__bar"></div>
             <div class="postcard__preview-txt">
               The Iowa State Ivy College of Business wants a system that
-              predicts student enrollment in future course sections (the
-              upcoming semester) to determine what courses to offer and at what
-              time. They also want to show which professor teaches a certain
-              class at a certain time to schedule the professors as well. As a
-              team of 5, we built a course scheudling app that lets the IVY
-              admins, upload past student and class data (13 MB), and using ML
-              algorithms, it returns the probablity that a certain class at a
-              certain time will be taken. This allows for more efficient
-              scheduling, and better results for teachers and students
+              <span class="text-white"
+                >predicts student enrollment in future course sections></span
+              >
+              (the upcoming semester) to determine what courses to offer and at
+              what time. They also want to show which professor teaches a
+              certain class at a certain time to schedule the professors as
+              well. As a team of 5, we built a
+              <span class="text-white"
+                >course scheudling app that lets the Ivy admins upload past
+                student and class data (13 MB)</span
+              >, and using ML algorithms, it returns the probablity that a
+              certain class at a certain time will be taken. This allows for
+              <span class="text-white"
+                >more efficient scheduling, and better results for teachers and
+                students.</span
+              >
             </div>
             <ul class="postcard__tagbox">
               <li class="tag__item play red">
@@ -772,19 +928,21 @@
             </div>
             <div class="postcard__bar"></div>
             <div class="postcard__preview-txt">
-              My EDM Genre Generator is an innovative web application built
-              using
+              I came up with the idea while a friend was playing at a rave.
               <span class="text-white"
-                >React, Express, Node and Spotify's API.</span
+                >By simply inputting a Spotify song link, the application
+                extracts data to accurately predict the genre and subgenre of
+                the song.</span
               >
-              I came up with the idea while a friend was playing at a rave. By
-              simply inputting a Spotify song link, the application extracts
-              data to accurately predict the genre and subgenre of the song.
               Through advanced algorithms and analysis of various song
-              characteristics, including tempo, instrumentation, and energy
-              level, precise genre and subgenre predictions are made.The
-              implementation of cookie generation and authentication ensures a
-              secure and personalized user experience.
+              characteristics, with the help of
+              <span class="text-white">Spotify's API,</span> including tempo,
+              instrumentation, and energy level, precise genre and subgenre
+              predictions are made. The implementation of
+              <span class="text-white"
+                >cookie generation and authentication ensures a secure and
+                personalized user experience.</span
+              >
             </div>
             <ul class="postcard__tagbox">
               <li class="tag__item play purple">
@@ -822,12 +980,18 @@
             </div>
             <div class="postcard__bar"></div>
             <div class="postcard__preview-txt">
-              The Beach Resort website showcases the perfect example of a modern
-              hotel or beach resort site. With meticulous design and
-              development, this platform demonstrates the seamless integration
-              of cutting-edge technologies. Experience the convenience of room
-              filtering, allowing users to search based on price, number of
-              beds, and bed size, ensuring a personalized booking experience.
+              The Beach Resort website showcases the
+              <span class="text-white"
+                >perfect example of a modern hotel or beach resort site.</span
+              >
+              With meticulous design and development, this platform demonstrates
+              the seamless integration of cutting-edge technologies. Experience
+              the convenience of
+              <span class="text-white"
+                >room filtering, allowing users to search based on price, number
+                of beds, and bed size, ensuring a personalized booking
+                experience.</span
+              >
             </div>
             <ul class="postcard__tagbox">
               <li class="tag__item play blue">
@@ -848,7 +1012,7 @@
           >
             <img
               class="postcard__img"
-              src="images/hcubedHome.png"
+              src="images/hcubed.png"
               alt="H Cubed Apparel Image"
             />
           </a>
@@ -859,22 +1023,24 @@
               >
             </h1>
             <div class="postcard__subtitle small">
-              <p>WordPress</p>
+              <p>WordPress | WooCommerce</p>
             </div>
             <div class="postcard__bar"></div>
             <div class="postcard__preview-txt">
               This is my H Cubed Apparel gym wear website, a transformative
-              platform crafted with web design expertise and powered by
-              WordPress. The captivating website offers an exceptional eCommerce
-              experience, inspiring personal growth. Meticulous attention to
-              detail, from layouts to visuals, fosters an environment that
-              motivates individuals to reach their full potential and highest
-              self in and outside of the gym. Seamlessly integrating eCommerce
-              features ensures a user-friendly and secure online shopping
-              experience. The H Cubed Apparel website, where every aspect of it,
-              from design to functionality, has been carefully crafted to
-              empower individuals on their journey to becoming their best
-              selves.
+              platform crafted with web design expertise. The captivating
+              website offers an exceptional eCommerce experience, inspiring
+              personal growth.
+              <span class="text-white"
+                >Meticulous attention to detail, from layouts to visuals,
+                fosters an environment that motivates individuals to reach their
+                full potential and highest self in and outside of the gym.</span
+              >
+              Seamlessly integrating eCommerce features ensures a user-friendly
+              and secure online shopping experience. The H Cubed Apparel
+              website, where every aspect of it, from design to functionality,
+              has been carefully crafted to empower individuals on their journey
+              to becoming their best selves.
             </div>
             <ul class="postcard__tagbox">
               <li class="tag__item play red">
@@ -882,8 +1048,114 @@
                   ><i class="fas fa-play mr-2"></i>View Site</a
                 >
               </li>
+              <li class="tag__item play red">
+                <a data-bs-toggle="modal" data-bs-target="#hc"
+                  ><i class="fas fa-play mr-2"></i>View Design</a
+                >
+              </li>
             </ul>
           </div>
+
+          <!-- HC modal -->
+          <div
+            class="modal fade"
+            id="hc"
+            tabindex="-1"
+            aria-labelledby="hcLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5 text-black" id="hcLabel">
+                    H Cubed Apparel
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <!-- modal with images -->
+                  <div id="hcCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="./images/hcubed.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="./images/hc2.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="./images/hc3.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="./images/hc4.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="./images/hc5.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#hcCarousel"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon bg-black"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#hcCarousel"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon bg-black"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of HC modal -->
         </article>
         <article class="postcard dark green">
           <a
@@ -902,21 +1174,26 @@
               <a href="http://waytolift.com/" target="_blank">WayToLift</a>
             </h1>
             <div class="postcard__subtitle small">
-              <p>HTML | CSS | JavaScript</p>
+              <p>HTML | CSS | JavaScript | Material Design</p>
             </div>
             <div class="postcard__bar"></div>
             <div class="postcard__preview-txt">
-              WayToLift.com is my inaugural website, handcrafted with HTML, CSS,
-              and JavaScript, leveraging Google's Material Design. It serves as
-              a comprehensive resource for all lifters. Through meticulous
-              attention to detail, I have created an intuitive and visually
-              appealing platform that offers valuable information, tips, and
-              guidance for everyone. The website's user-friendly interface
-              seamlessly guides users to discover exercise routines, nutrition
-              advice, and motivational content, fostering a community of support
-              and growth. With WayToLift.com, I have combined my passion for
-              lifting with my technical expertise to create an engaging and
-              informative online destination for fitness enthusiasts.
+              WayToLift.com is my fist website. It serves as a
+              <span class="text-white"
+                >free resource for lifters no matter where they are in their
+                journey.</span
+              >
+              Through meticulous attention to detail, I have created an
+              intuitive and visually appealing platform that offers valuable
+              information, tips, and guidance for everyone. The website's
+              user-friendly interface seamlessly guides users to
+              <span class="text-white"
+                >discover exercise routines, nutrition advice, and motivational
+                content, fostering a community of support and growth.</span
+              >
+              With WayToLift.com, I have combined my passion for lifting with my
+              technical expertise to create an engaging and informative online
+              destination for fitness enthusiasts.
             </div>
             <ul class="postcard__tagbox">
               <li class="tag__item play green">
